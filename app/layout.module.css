@@ -1,0 +1,30 @@
+/* layout.module.css */
+.pageContainer {
+    display: flex;
+    min-height: 100vh; /* Ensure the page takes up full viewport height */
+  }
+  
+  .mainLayoutContainer {
+    display: flex;
+    flex: 1; /* Allow the layout to expand */
+  }
+  
+  
+  
+  .contentContainer {
+    flex: 1; /* Allow the content to expand */
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  
+  .scrollableContentWrapper {
+    overflow-y: auto; /* Enable vertical scrolling for the content */
+    flex: 1;       /* Allow the content wrapper to fill the available space */
+  
+  }
+  
+  .mainContent {
+    padding: 2rem;
+  }
